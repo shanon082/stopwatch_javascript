@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(60deg, rgb(4, 4, 157), black);
+    min-height: 100vh;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container #time{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.container #controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+}
+.container #controls #play{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+.container #controls #pause{
+    border: none;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+.container #controls #reset{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
